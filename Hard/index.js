@@ -5,12 +5,12 @@ const express = require("express");
 const app = express();
 
 // Access data within .json file
-const data = require("./public/database.json");
+const data = require("./employees.json");
 
 // Port number will be 3000 unless otherwise specified
 const port = process.env.PORT || 3000; // 8080 is max port available for server
 
-app.get("/workers", (req, res) => {
+app.get("/employees", (req, res) => {
     // Conditional to check if there is data. if not send not found status code and message
     if (!data) {
         res.statusCode(404).send("Could not find information");
@@ -20,11 +20,11 @@ app.get("/workers", (req, res) => {
 });
 
 // :id is a param
-app.get("/workers/:id", (req, res) => {
+app.get("/employees/:id", (req, res) => {
     // Function to loop through JSON data then return if both are equal
-    const findEmployee = data.workers.find((employee) => {
+    const findEmployee = data.employees.find((employee) => {
         // Must parse string from req and convert to number in order to run conditional
-        return parseInt(req.params.id) === employee.id;
+        return parseInt(req.params.id) === employee.employeeID;
     });
 
     // Conditional to check if there is data. if not send not found status code and message
