@@ -1,5 +1,12 @@
 "use script";
+// JSON METHOD
+const data = require("./planets.json");
 
+data.planets.forEach((key) => {
+    console.log(key.planet);
+});
+
+// FS METHOD
 const fs = require("fs");
 
 // receive file contents
