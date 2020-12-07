@@ -4,61 +4,61 @@
             "employeeID": 1,
             "name": "Josh",
             "salary": 50000,
-            "departmentName": "Code"
+            "departmentName": "QA"
         },
         {
             "employeeID": 2,
-            "name": "Josh",
+            "name": "Omar",
             "salary": 30000,
-            "departmentName": "Code"
+            "departmentName": "Analyst"
         },
         {
             "employeeID": 3,
-            "name": "Josh",
-            "salary": 50000,
-            "departmentName": "Code"
+            "name": "Keren",
+            "salary": 60000,
+            "departmentName": "QA"
         },
         {
             "employeeID": 4,
-            "name": "Josh",
-            "salary": 50000,
-            "departmentName": "Code"
+            "name": "Jane",
+            "salary": 70000,
+            "departmentName": "Analyst"
         },
         {
             "employeeID": 5,
-            "name": "Josh",
-            "salary": 50000,
-            "departmentName": "Code"
+            "name": "Alex",
+            "salary": 20000,
+            "departmentName": "QA"
         },
         {
             "employeeID": 6,
-            "name": "Josh",
-            "salary": 50000,
-            "departmentName": "Code"
+            "name": "David",
+            "salary": 30000,
+            "departmentName": "UX"
         },
         {
             "employeeID": 7,
-            "name": "Josh",
+            "name": "Aaron",
             "salary": 50000,
-            "departmentName": "Code"
+            "departmentName": "UI"
         },
         {
             "employeeID": 8,
-            "name": "Josh",
-            "salary": 50000,
-            "departmentName": "Code"
+            "name": "Katie",
+            "salary": 60000,
+            "departmentName": "UI"
         },
         {
             "employeeID": 9,
-            "name": "Josh",
-            "salary": 50000,
-            "departmentName": "Code"
+            "name": "Marisol",
+            "salary": 70000,
+            "departmentName": "UX"
         },
         {
             "employeeID": 10,
-            "name": "Josh",
-            "salary": 50000,
-            "departmentName": "Code"
+            "name": "Hector",
+            "salary": 100000,
+            "departmentName": "Analyst"
         }
     ]
 }
