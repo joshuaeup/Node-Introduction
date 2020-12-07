@@ -1,3 +1,7 @@
+// END POINTS
+// /employees - ALL EMPLOYEES
+// /employees/:id - DIRECT EMPLOYEE
+
 // Express Module
 const express = require("express");
 
